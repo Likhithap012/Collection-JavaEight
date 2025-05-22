@@ -27,8 +27,7 @@ public class Comparators {
 
         // Sort the list in descending order of string lengths using Collections.sort() with Lambda
         Collections.sort(list, (a, b) -> b.length() - a.length());
-        // OR (modern way) — you can directly use list.sort()
-        // list.sort((a, b) -> b.length() - a.length());
+
 
         // Print the sorted list
         System.out.println("Sorted list (by descending length):");
